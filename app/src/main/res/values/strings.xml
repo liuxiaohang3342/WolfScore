@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">狼人杀记分器</string>
+    <string name="main_billboard">排行榜</string>
+    <string name="main_history_record">历史记录</string>
+    <string name="main_role_list">角色列表</string>
+    <string name="main_gamer_list">玩家列表</string>
+    <string name="main_create_game">创建游戏</string>
+
+    <string name="no_data_tip">暂时没有数据</string>
+    <string name="no_gamer_tip">暂时没有玩家，赶紧去添加新玩家吧</string>
+    <string name="no_role_tip">暂时没有角色，赶紧去添加新角色吧</string>
+
+    <string name="string_add">添加</string>
+    <string name="add_new_gamer">添加用户</string>
+    <string name="add_new_role">添加角色</string>
+
+    <string name="civilian_camp">平民阵营</string>
+    <string name="good_camp">神民阵营</string>
+    <string name="god_camp">神阵营</string>
+    <string name="wolf_camp">狼人阵营</string>
+
+    <string name="role_name">角色</string>
+    <string name="role_rules">技能介绍</string>
+    <string name="role_score">角色积分</string>
+
+    <string name="create_new">创建</string>
+    <string name="game_over">结束</string>
+    <string name="win_tip">获胜方</string>
+
+    <string name="special_add_score">特殊加分</string>
+    <string name="special_reduce_score">特殊减分</string>
+
+
+    <string name="wolf_win">狼人阵营获胜</string>
+    <string name="good_win">好人阵营获胜</string>
+</resources>

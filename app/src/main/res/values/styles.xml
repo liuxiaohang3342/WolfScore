@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextName">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/text_name</item>
+    </style>
+
+
+    <style name="TextDesc">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/text_desc</item>
+    </style>
+
+</resources>

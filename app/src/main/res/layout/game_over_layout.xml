@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_win_tip"
+        style="@style/TextName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/win_tip" />
+
+    <RadioGroup
+        android:id="@+id/rg_camp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_win_tip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_good_camp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good_camp" />
+
+        <RadioButton
+            android:id="@+id/rb_wolf_camp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/wolf_camp" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rg_camp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_add_score"
+        style="@style/TextName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rg_camp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/special_add_score" />
+
+    <LinearLayout
+        android:id="@+id/ll_add_score"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_add_score"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <View
+        android:id="@+id/view_add_splite"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll_add_score"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_reduce_score"
+        style="@style/TextName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ll_add_score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/special_reduce_score" />
+
+    <LinearLayout
+        android:id="@+id/ll_reduce_score"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_reduce_score"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <View
+        android:id="@+id/view_reduce_splite"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll_reduce_score"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/ll_mvp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ll_reduce_score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextName"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="MVP" />
+
+        <Spinner
+            android:id="@+id/wv_choose_mvp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:dropDownVerticalOffset="30dp"
+            android:gravity="center"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_confirm"
+        style="@style/TextName"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/main_function_normal"
+        android:gravity="center"
+        android:text="确定" />
+
+</RelativeLayout>
